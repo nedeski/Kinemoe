@@ -1,0 +1,507 @@
+.loginContainer {
+  color: var(--color-secondary);
+  background-image: linear-gradient(rgba(24, 13, 13, 0.5), rgba(17, 8, 8, 0.5)),
+    url("/src/assets/images/LoginBgPhoto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signIn h2 {
+  font-size: 25px;
+}
+
+.joinUs {
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.logoInner {
+  max-width: 260px;
+  margin-top: 100px;
+}
+
+.kinemoeLogo {
+  max-width: 100%;
+}
+
+.popUp {
+  display: flex;
+  width: 65%;
+  height: 80vh;
+  background-color: var(--background-primary);
+  border-radius: 15px;
+}
+
+.stepsInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 60vh;
+}
+
+.stepsInner h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidePicture {
+  background-image: url("/src/assets/images/SidePicture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  width: 50%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-transform: uppercase;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidePicture h2 {
+  margin-top: 15%;
+}
+
+.sidePicture span {
+  color: var(--color-quaternary);
+}
+
+.logInFormContainer {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logInFormContainer button {
+  display: block;
+}
+
+.formRelative {
+  position: relative;
+}
+
+.validAlert {
+  color: var(--color-quaternary);
+  font-size: 10px;
+  position: absolute;
+  top: 38px;
+}
+
+.formInner {
+  width: 90%;
+  text-align: center;
+}
+
+.formInner form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.popUp input {
+  line-height: 27px;
+  display: inline-block;
+  border-radius: 20px;
+  width: 80%;
+  background-color: var(--background-primary);
+  border: 1px solid var(--color-secondary);
+  outline: none;
+  padding: 5px;
+  color: var(--color-secondary);
+}
+
+.transparentBtn {
+  display: inline-block;
+  line-height: 27px;
+  border-radius: 40px;
+  color: var(--color-secondary);
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 15px;
+  background-color: transparent;
+  border: 1px solid var(--color-secondary);
+  width: 120px;
+  margin: 12px;
+  cursor: pointer;
+}
+
+.transparentBtn:hover {
+  background-color: var(--color-quaternary);
+}
+
+.popUp button,
+.registerBtn {
+  display: inline-block;
+  line-height: 27px;
+  border-radius: 20px;
+  width: 82%;
+  color: var(--color-secondary);
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 15px;
+  background-color: var(--background-tertiary);
+}
+
+.popUp form button,
+.registerBtn {
+  text-decoration: none;
+  background-color: var(--background-tertiary);
+}
+
+.popUp .signUpBtn {
+  background-color: transparent;
+  border: 1px solid var(--color-secondary);
+  margin-top: 12px;
+}
+
+.or {
+  display: inline-block;
+  width: 80%;
+  border-bottom: 1px solid var(--color-secondary);
+  line-height: 0.1em;
+  margin: 20px 0;
+}
+
+.or span {
+  background-color: var(--background-primary);
+  padding: 0 10px;
+}
+
+.absoliteLogo {
+  position: absolute;
+  left: 8px;
+}
+
+.newAccount {
+  text-decoration: none;
+  color: var(--color-secondary);
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.registerBtn:hover {
+  background-color: var(--color-quaternary);
+}
+
+.stepsPopUp {
+  width: 80%;
+  height: 80vh;
+  background-color: var(--background-primary);
+  border-radius: 25px;
+  box-shadow: rgba(198, 187, 187, 0.55) 3.4px 3.4px 4.2px;
+}
+
+.stepsPopUpCenter {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  background-color: var(--background-primary);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(198, 187, 187, 0.55) 3.4px 3.4px 4.2px;
+}
+
+.stepsPopUp h3 {
+  font-size: 36px;
+  font-family: "Poppins";
+}
+
+.radioForm {
+  display: flex;
+  flex-direction: row;
+}
+
+.radioContainer {
+  display: inline-block;
+  border: 2px solid var(--color-secondary);
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  font-size: 25px;
+  width: 230px;
+}
+
+.activeBorder {
+  border: 2px solid var(--background-tertiary);
+}
+
+.radioIcon {
+  width: 70px;
+}
+
+.radioBtn {
+  position: absolute;
+  border: 2px solid var(--color-secondary);
+  right: 10px;
+}
+
+.nextBackBtn {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  width: 24px;
+}
+
+.nextAndPrevBtnContainer {
+  display: flex;
+}
+
+.buttonClicked {
+  background-color: var(--background-tertiary);
+}
+
+input[type="radio"] {
+  --s: 1em; /* control the size */
+
+  height: var(--s);
+  aspect-ratio: 1;
+  border: calc(var(--s) / 8) solid var(--color-secondary);
+  padding: calc(var(--s) / 8);
+  background: radial-gradient(
+      farthest-side,
+      var(--background-tertiary) 94%,
+      #0000
+    )
+    50%/0 0 no-repeat content-box;
+  border-radius: 50%;
+  outline-offset: calc(var(--s) / 10);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  font-size: inherit;
+  transition: 0.3s;
+}
+input[type="radio"]:checked {
+  border-color: var(--background-tertiary);
+  background-size: 100% 100%;
+}
+
+input[type="radio"]:disabled {
+  background: linear-gradient(var(--color-secondary) 0 0) 50%/100% 20% no-repeat
+    content-box;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.numberCircle {
+  color: var(--background-primary);
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 40px;
+  margin-right: 5px;
+}
+
+.interestsButtons {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.engageButtons {
+  display: flex;
+}
+
+.engageBtn {
+  width: auto;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.engageBtn img {
+  max-width: 30px;
+  margin-right: 5px;
+}
+
+@media print {
+  input[type="radio"] {
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+    background: none;
+  }
+}
+
+.pricingContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
+}
+
+.pricingCard {
+  background: linear-gradient(black, var(--background-primary));
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 80%;
+}
+
+.innerCard {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+}
+
+.pricingTitle {
+  margin: 15px;
+  margin-bottom: 35px;
+}
+
+.pricingCard h5 {
+  background: linear-gradient(to right, black, var(--background-tertiary));
+  padding: 10px;
+  font-size: 16px;
+  margin: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.pricingCard p {
+  color: var(--background-tertiary);
+}
+
+.pricingCard li {
+  list-style-type: none;
+  text-align: left;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.pricingCard ul {
+  padding-left: 20px;
+  padding-right: 15px;
+  margin: 0;
+  min-height: 150px;
+}
+
+.pricingBtn {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.redBg {
+  background-color: var(--color-quaternary);
+  border-radius: 16px;
+  height: 70px;
+  font-size: 16px;
+  width: 100%;
+}
+.relative {
+  position: relative;
+}
+
+.optimalChoice {
+  background-color: var(--color-quaternary);
+  padding: 10px;
+  font-size: 16px;
+  margin: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.choice {
+  margin-top: 50px;
+}
+
+.setupProfileTitle {
+  font-size: 26px;
+}
+
+.setumProfileInner {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.setumProfileInner img {
+  max-width: 40%;
+}
+.setumProfileInner form {
+  width: 60%;
+}
+.setumProfileInner input,
+.setumProfileInner textarea {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 14px;
+  border-radius: 7px;
+}
+
+.inputBorderGreen {
+  outline: 2px solid var(--background-tertiary);
+}
+
+.inputBorderRed {
+  outline: 2px solid var(--color-quaternary);
+}
+
+.profileImg {
+  max-width: 120px;
+}
+
+.culturesTitleContainer {
+  margin: 0;
+}
+
+.culturesTitle {
+  font-size: 25px;
+  margin: 0;
+}
+
+.stayInLoop {
+  font-size: 40px;
+}
+
+.notificationTitle {
+  font-size: 14px;
+}
+
+.notificationForm {
+  display: inline-block;
+  text-align: left;
+  font-size: 26px;
+}
+
+.notificationForm div {
+  margin-bottom: 20px;
+}
+
+.notificationForm input {
+  margin-right: 15px;
+}

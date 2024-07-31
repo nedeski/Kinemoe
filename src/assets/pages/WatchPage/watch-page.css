@@ -1,0 +1,4 @@
+.watchPage {
+  background-color: var(--background-primary);
+  min-height: 100vh;
+}

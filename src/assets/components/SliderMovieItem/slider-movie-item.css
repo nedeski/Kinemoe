@@ -1,0 +1,171 @@
+.movieModal {
+  background-color: var(--background-primary);
+  color: var(--color-secondary);
+}
+
+.movieBannerImgModal {
+  width: 100%;
+  height: 50vh;
+}
+
+.modalBannerText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.252), var(--background-primary));
+}
+
+.innerModalBannerText {
+  position: absolute;
+  bottom: -70px;
+  left: 80px;
+  width: 45%;
+}
+
+.innerModalBannerText h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.aboutMovie {
+  margin: 80px;
+}
+
+.seeMoreMoiveBtn {
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: var(--background-tertiary);
+}
+
+.seeMoreMoiveBtn:hover {
+  color: var(--color-quaternary);
+}
+
+.movieDetails {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--border-primary);
+}
+
+.movieDetails ul {
+  max-width: 30%;
+}
+
+.movieTeam {
+  margin-left: 0;
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+.aboutMovie ul {
+  padding-left: 0;
+}
+
+.aboutMovie li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.closeModalBtn {
+  position: absolute;
+  right: 60px;
+  top: 30px;
+  z-index: 999;
+}
+
+.artistBtnContainer {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.artistBtb {
+  color: var(--border-primary);
+  padding: 0;
+  border: none;
+  background: none;
+  font-weight: bold;
+}
+
+.artistName {
+  color: var(--border-primary);
+}
+
+.artistBtb:hover {
+  color: var(--color-quaternary);
+}
+
+.firstContainer {
+  display: flex;
+}
+
+.firstContainer img {
+  margin: 30px;
+  border-radius: 25px;
+  border: 2px solid var(--color-secondary);
+  box-shadow: rgba(229, 228, 228, 0.523) -4px 9px 25px -2px;
+}
+
+.movieText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 50px;
+}
+
+.movieText p {
+  text-align: center;
+}
+
+.artMovies {
+  margin: 30px;
+}
+
+.artMoviesContainer {
+  display: flex;
+}
+
+.movieCard {
+  padding: 15px;
+}
+
+.movieCard img {
+  max-width: 100%;
+  max-height: 35vh;
+}
+
+.artAwards {
+  line-height: 25px;
+  margin: 30px;
+}
+
+.btnContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.voiceButton {
+  position: absolute;
+  right: 20px;
+  top: 52vh;
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: var(--border-primary);
+  font-size: 22px;
+}
+
+.voiceButton:hover {
+  color: var(--color-secondary);
+}
+
+.artistPageImg {
+  max-height: 50vh;
+}

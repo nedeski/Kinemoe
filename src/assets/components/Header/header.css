@@ -1,0 +1,124 @@
+.header {
+  position: fixed;
+  height: 100vh;
+  background-color: #ffffff1e;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+  padding: 15px;
+  left: 0;
+  top: 0;
+}
+
+.headerBtn {
+  text-decoration: none;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.headerBtn:hover {
+  transform: translateY(-7px);
+}
+
+.headerBtnText {
+  color: var(--color-secondary);
+  font-size: 10px;
+  opacity: 0;
+  margin-bottom: 0;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.headerBtn:hover .headerBtnText {
+  opacity: 1;
+}
+
+.roomsBtn {
+  transition: transform 0.7s ease-in-out;
+}
+
+.roomsBtn:hover {
+  transform: rotate(45deg);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+.headerModal {
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 44vh;
+  left: 90px;
+  padding: 10px;
+  padding-bottom: 0;
+  border-radius: 8px;
+  width: 350px;
+}
+
+.headerModal img {
+  margin: 5px;
+  margin-bottom: 0;
+}
+
+.showMoreContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.showMoreBtn {
+  color: var(--background-primary);
+  background-color: var(--background-quaternary);
+  width: 300px;
+  margin: 30px;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.settings,
+.roomsBtn,
+.settingsModal img {
+  cursor: pointer;
+}
+
+.settingsModal {
+  background-color: var(--color-secondary);
+  position: fixed;
+  top: 90vh;
+  left: 90px;
+  padding-top: 16px;
+  border-radius: 8px;
+}
+
+.settingsModal img {
+  max-width: 35px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.headerBtnTextBlack {
+  color: var(--color-primary);
+  font-size: 10px;
+  opacity: 0;
+  margin-bottom: 0;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.headerBtn:hover .headerBtnTextBlack {
+  opacity: 1;
+}

@@ -1,0 +1,47 @@
+.searchPage {
+  background-color: var(--background-primary);
+  color: var(--color-secondary);
+  min-height: 100vh;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.searchForm {
+  border: 2px solid var(--color-secondary);
+  border-radius: 10px;
+  display: flex;
+  min-width: 350px;
+}
+
+.searchInput {
+  width: 100%;
+  color: var(--color-secondary);
+  padding: 8px;
+}
+
+.searchInput,
+.searchFormBtn {
+  display: inline-block;
+  border: none;
+  background-color: var(--background-primary);
+  border-radius: 10px;
+}
+
+.searchMoviesContainer {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 1fr;
+}
+
+.searchPage h3,
+.searchResults hr {
+  margin-left: 110px;
+}

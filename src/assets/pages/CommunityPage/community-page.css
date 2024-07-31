@@ -1,0 +1,133 @@
+.communityPage {
+  background-color: var(--background-primary);
+  min-height: 100vh;
+  display: flex;
+}
+
+.mainCommunity {
+  margin-top: 30px;
+  width: 70%;
+  margin-left: 110px;
+}
+
+.mainCommunity h2 {
+  color: var(--color-secondary);
+  margin-bottom: 30px;
+}
+
+.sideCommunity {
+  max-width: 20%;
+  padding: 30px;
+}
+
+.searchAndDiscusion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBar {
+  display: flex;
+}
+
+.filterBtn {
+  margin-right: 20px;
+}
+
+.discusionBtn {
+  margin-right: 7px;
+}
+
+.postModalContainer {
+  color: var(--color-secondary);
+  background-color: var(--background-secondary);
+  padding: 40px;
+  text-align: center;
+}
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.selectInput {
+  border-radius: 20px;
+  width: 250px;
+  line-height: 30px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.postArea {
+  border-radius: 10px;
+}
+
+.postContainer {
+  border: 1px solid var(--border-primary);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postComponent {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+.smallProfileImg {
+  margin-right: 10px;
+}
+
+.likesAndDislikes {
+  display: flex;
+}
+
+.likesAndDislikes p {
+  margin-bottom: 0;
+}
+
+.sideInner {
+  background-color: var(--background-secondary);
+  border-radius: 10px;
+  margin-top: 70px;
+  padding: 2px;
+}
+
+.chartSideContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 30px;
+}
+.chart {
+  max-width: 50%;
+}
+
+.lastComment {
+  background-color: var(--background-primary);
+  margin: 15px;
+  color: var(--color-secondary);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.lastComment p {
+  margin-bottom: 0;
+}
+
+.showMoreBtnContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.sidebarSpan {
+  color: var(--color-secondary);
+  margin-left: 15px;
+}

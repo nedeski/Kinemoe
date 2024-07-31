@@ -1,0 +1,117 @@
+.commentPage {
+  background-color: var(--background-primary);
+  min-height: 100vh;
+  display: flex;
+  color: var(--color-secondary);
+}
+
+.mainCommentContent {
+  border: 1px solid var(--border-primary);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.mainCommentTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postContent {
+  background-color: var(--color-secondary);
+  color: var(--background-primary);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.commentsArea {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.friendsComments {
+  width: 25%;
+  margin: 15px;
+}
+
+.friendsCommentInner {
+  border: 1px solid var(--border-primary);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 125px;
+}
+
+.commentsForm {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.likeAndDislikeBtns,
+.commentAndLike button {
+  border: none;
+  background: none;
+  text-decoration: none;
+}
+
+.likes,
+.dislikes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.commentsInner {
+  background-color: var(--color-secondary);
+  color: var(--background-primary);
+  border-radius: 10px;
+}
+
+.commentContent {
+  display: flex;
+}
+
+.commentContent img {
+  width: 50px;
+}
+
+.commentAndLike {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nameAndComment {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.likesNumAndBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.linkToProfile {
+  text-decoration: none;
+}
+
+.nestedCommentIcon {
+  max-height: 50px;
+}
+
+.likesSpan {
+  color: var(--color-primary);
+  margin-left: 0;
+}

@@ -1,0 +1,124 @@
+.videoPlayer {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: black;
+}
+
+video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  opacity: 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.controls:hover {
+  opacity: 1;
+}
+
+button {
+  background: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.videoSpan {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.controlButton {
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-size: 25px;
+}
+
+.commentsAndForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.commentsAndForm textarea {
+  display: block;
+  border-radius: 10px;
+}
+
+.sideBar {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.movieTime {
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.commentBox {
+  background-color: var(--background-primary);
+  border-radius: 10px;
+  padding: 10px;
+  color: var(--color-secondary);
+  margin-bottom: 5px;
+}
+
+.commentAuthor {
+  display: flex;
+}
+
+.activeControlBtn {
+  color: var(--color-quaternary);
+}
+
+.backAndInfo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.backAndInfo:hover {
+  opacity: 1;
+}

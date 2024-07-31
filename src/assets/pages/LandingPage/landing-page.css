@@ -1,0 +1,166 @@
+.landingPage {
+  background-color: var(--background-primary);
+  color: var(--color-secondary);
+  background-image: url("/src/assets/images/Banner\ Background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 54px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 26px;
+  margin-top: 0;
+}
+
+.logoImage {
+  max-width: 40%;
+}
+
+.button {
+  text-decoration: none;
+  color: var(--color-secondary);
+  background-color: var(--background-tertiary);
+  padding: 10px 45px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  z-index: 999;
+}
+.button:hover {
+  box-shadow: 5px 5px 10px rgb(136, 153, 166, 0.3);
+  background-color: var(--color-quaternary) !important;
+}
+.button:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
+
+.lendingBtn {
+  margin-bottom: 50px;
+}
+
+.landingBanner {
+  max-width: 100%;
+}
+
+.banner-wrapper {
+  position: relative;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 30px;
+}
+
+.rooms {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.room {
+  max-width: 30%;
+}
+
+.room img {
+  max-width: 100%;
+}
+
+.artists {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 4.2vh 0;
+}
+
+.artists h3 {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.artistsContainer {
+  display: flex;
+  width: calc(30vh * 18);
+  perspective: 100px;
+  animation: slideLeft 50s linear infinite;
+  margin-bottom: 4.9vh;
+}
+
+.artistsContainer:hover {
+  animation-play-state: paused;
+}
+
+.artistCard {
+  height: 60vh;
+  width: 60vh;
+  perspective: 100px;
+  margin: 40px;
+  border-radius: 25px;
+}
+
+.artistCard img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 0 1.75vh;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(-5px -5px 5px rgba(0, 0, 0, 0.3));
+  border-radius: 25px;
+}
+
+.artistCard :hover {
+  transform: translateZ(20px);
+}
+
+.latestMovieBanner img {
+  max-width: 90%;
+}
+
+.pricingOptions {
+  max-width: 80%;
+  margin: 80px auto;
+}
+
+.landingFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.landingFooter img {
+  max-width: 15%;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-30vh * 9));
+  }
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(calc(-30vh * 9));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

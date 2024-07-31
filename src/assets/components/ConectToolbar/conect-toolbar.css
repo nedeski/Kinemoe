@@ -1,0 +1,31 @@
+.conectToolbar {
+  margin-top: 20px;
+  display: flex;
+}
+
+.conectIcon {
+  font-size: 30px;
+  padding: 7px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.conectButton {
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: var(--color-secondary);
+  transition: transform 0.3s ease !important;
+  z-index: 999;
+}
+
+.conectButton:hover {
+  color: var(--color-quaternary) !important;
+  transform: translateY(-7px);
+}
+
+.shareModal {
+  background-color: var(--background-primary);
+  text-align: center;
+  padding: 25px;
+}
